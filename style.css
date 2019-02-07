@@ -21,64 +21,6 @@ body {
   font-size: 15px;
   font-weight: lighter;
 }
-
-h1, h2, h3 {
-  font-family: 'Quicksand', sans-serif;
-}
-h1 {
-  color: #2b2b2e;
-  font-size: 32px;
-  font-weight: 900;
-}
-h2 {
-  color: #1643cd;
-  font-size: 20px;
-  font-weight: lighter;
-  font-weight: 500;
-}
-
-
-a {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  color: #6B72E1;
-  font-weight: 600;
-  font-size: 16px;
-}
-a:hover {
-  color: black;
-}
-
-.img-circle {
-  border-radius: 8px;
-  border: 1px solid darkgrey;
-
-}
-.text-center {
-  text-align: center;
-}
-.card-white {
-  background-color: white;
-  opacity: 0.7;
-  padding: 10px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
-  margin-top: 20px;
-  margin-right: 150px;
-  margin-bottom: 20px;
-  margin-left: 150px;
-}
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-.btn-blue {
-  background-color: #1643cd;
-  color: white;
-  padding: 3px 10px;
-  border-radius: 4px;
-}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -96,4 +38,65 @@ a:hover {
   .container {
     width: 300px;
   }
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+h1 {
+  color: #2b2b2e;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #1643cd;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: black;
+}
+
+.img-circle {
+  border-radius: 8px;
+  border: 1px solid darkgrey;
+
+}
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  opacity: 0.7;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #1643cd;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 4px;
 }
